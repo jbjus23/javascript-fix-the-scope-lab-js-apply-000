@@ -1,9 +1,10 @@
-var animal = 'dog'
+var animal = 'pet' 
 
-function myAnimal() {
+function myAnimal(cat) {
   // You should not need to modify this function
-  return animal
+  return "animal"
 }
+var animal = 'myAnimal'
 
 function yourAnimal() {
   // The tests expect this function to return `animal` just like the previous function
@@ -14,19 +15,23 @@ function yourAnimal() {
   return animal
 }
 
-function add2(n) {
+function add2() {
   return n + two
 
   // Feel free to move things around!
   const two = 2
 }
-
-var funkyFunction = function() {
-  return function() {
-    return "FUNKY!"
-  }
+ 
+  
+  
+    
+function funkyFunction(){
+  return "FUNKY!";
 }
+   
+
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
 var theFunk = funkyFunction
+funkyFunction()
